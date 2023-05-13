@@ -15,7 +15,7 @@ function anagram(str1, str2) {
    
 }
 
-// Протестируйте решение, вызывая функцию с разными аргументами:
+// протестируйте решение, вызывая функцию с разными аргументами:
 
 console.log(anagram('finder', 'Friend')); // true
 console.log(anagram('hello', 'bye')); // false
