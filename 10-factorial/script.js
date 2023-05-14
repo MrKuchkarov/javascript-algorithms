@@ -8,10 +8,10 @@
 */
 
 function factorial(n) {
-    if (n === 0) { // проверяем, равно ли n нулю
-        return 1;    // если да, возвращаем 1
-      } else {       // в противном случае
-        return n * factorial(n - 1); // возвращаем n умноженное на результат вызова функции для n-1
+    if (n === 0) { 
+        return 1;
+      } else { 
+        return n * factorial(n - 1); 
       }
 }
 

@@ -11,20 +11,13 @@
 const vowels = ['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'];
 
 function findVowels(str) {
-     // Приводим строку к нижнему регистру, чтобы учесть все возможные варианты написания гласных
   const lowercaseStr = str.toLowerCase();
-
-  // Создаем счетчик для гласных
   let vowelCount = 0;
-
-  // Итерируемся по каждой букве в строке и проверяем, является ли она гласной
   for (let i = 0; i < lowercaseStr.length; i++) {
     if (vowels.includes(lowercaseStr[i])) {
       vowelCount++;
     }
   }
-
-  // Возвращаем количество гласных
   return vowelCount;
 }
 

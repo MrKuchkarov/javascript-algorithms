@@ -8,7 +8,7 @@
 */
 
 function intersection(arr1, arr2) {
-    return arr2.filter(x => arr1.includes(x)); // фильтруем элементы массива arr1, оставляя только те, которые встречаются в массиве arr2
+    return arr2.filter(x => arr1.includes(x)); 
     
 }
 
